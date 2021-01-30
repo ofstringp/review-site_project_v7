@@ -25,5 +25,17 @@
     "eslint": "^7.18.0",
     "eslint-plugin-nuxt": "^2.0.0",
     "eslint-plugin-vue": "^7.5.0"
-  }
+  },
+  "description": "## Build Setup",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ofstringp/review-site_project_v7.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ofstringp/review-site_project_v7/issues"
+  },
+  "homepage": "https://github.com/ofstringp/review-site_project_v7#readme"
 }
