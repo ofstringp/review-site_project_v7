@@ -1,3 +1,4 @@
+/* eslint-disable space-before-function-paren */
 <template>
   <section class="section">
     <div class="columns is-mobile">
@@ -16,9 +17,7 @@
         <a href="http://bulma.io/">Bulma</a>
       </card>
 
-      <card title="Lightweight" icon="arrange-bring-to-front">
-        No other internal dependency
-      </card>
+      <card title="Lightweight" icon="arrange-bring-to-front">No other internal dependency</card>
     </div>
   </section>
 </template>
@@ -31,9 +30,10 @@ export default {
   components: {
     Card
   },
-  head () {
+  head() {
     return {
       script: [
+        { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' },
         { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }
       ]
     }
